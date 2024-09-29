@@ -13,10 +13,10 @@ const siteMetadata = {
   image: '/static/images/avatar.png', //to be edited -by spiddy
   socialBanner: '/static/images/twitter-card.png', //to be edited -by spiddy
   email: 'amarnath@sliet.ac.in', //to be edited -by spiddy changed by -spiddy
-  github: 'https://github.com/pycoder2000', //to be edited -by spiddy
-  twitter: 'https://twitter.com/_ParthDesai_', //to be edited -by spiddy
-  linkedin: 'https://www.linkedin.com/in/parth-desai-2bb1b0160/', //to be edited -by spiddy
-  website: 'https://parthdesai.vercel.app', //to be edited -by spiddy
+  github: 'https://github.com/Gauravsharma-2002', //to be edited -by spiddy
+  twitter: 'https://x.com/spidermonk_75', //to be edited -by spiddy
+  linkedin: 'https://www.linkedin.com/in/gaurav-sharma-81a344201/', //to be edited -by spiddy
+  website: '', //to be edited -by spiddy
   locale: 'en-US',
   analytics: {
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
@@ -47,9 +47,9 @@ const siteMetadata = {
       themeURL: '',
     },
   },
-  // will have to change these
+  // // will have to change these
   socialAccount: {
-    twitter: '_ParthDesai_',
+    twitter: 'spidermonk_75',
   },
 }
 
