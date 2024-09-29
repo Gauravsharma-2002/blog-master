@@ -82,7 +82,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             <p>
               This is what I am doing right{' '}
               <Link
-                href={'/now'}
+                href={'/about'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
               >
                 now
