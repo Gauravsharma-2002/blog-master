@@ -13,63 +13,6 @@ export default function Timeline() {
     <div>
       <ol className="relative mt-6 ml-6 border-l border-zinc-400 dark:border-gray-800 ">
         <li className="mb-4 ml-8 rounded-md border border-gray-100 bg-white  px-4  py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
-          <span className=" absolute -left-3 flex h-6 w-6 animate-pulse items-center justify-center rounded-full bg-blue-200 ring-8 ring-white dark:bg-green-900 dark:ring-gray-900">
-            <FaBlackTie className="animate-none" />
-          </span>
-          <h3 className="flex items-center text-base  font-semibold text-gray-900 dark:text-white">
-            Applying for Jobs
-            <span className="mr-2 ml-3 rounded bg-blue-100 px-2.5 py-0.5 text-sm font-medium text-blue-800 dark:bg-blue-200 dark:text-blue-800">
-              Present
-            </span>
-          </h3>
-          <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            June 13th, 2022
-          </time>
-          <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
-            Feel confident that I can work as a junior Data Engineer. Wish me Luck
-          </p>
-        </li>
-        <li className="mb-4 ml-8 rounded-md border border-gray-100 bg-white px-4 py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
-          <span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-200 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900">
-            <FaGraduationCap />
-          </span>
-          <h3 className="text-base font-semibold text-gray-900 dark:text-white">
-            Graduated College
-          </h3>
-          <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            May 21st, 2022
-          </time>
-          <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
-            8.2 CGPA / 3.42 GPA
-          </p>
-        </li>
-        <li className="mb-4 ml-8 rounded-md border border-gray-100 bg-white  px-4  py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
-          <span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-yellow-300 ring-8 ring-white dark:bg-yellow-700 dark:ring-gray-900">
-            <SiLeetcode />
-          </span>
-          <h3 className="text-base font-semibold text-gray-900 dark:text-white">Joined LeetCode</h3>
-          <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            Feb 2nd, 2022
-          </time>
-          <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
-            Preparing for coding interviews
-          </p>
-        </li>
-        <li className="mb-4 ml-8 rounded-md border border-gray-100 bg-white  px-4  py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
-          <span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-orange-200 ring-8 ring-white dark:bg-orange-900 dark:ring-gray-900">
-            <HiOutlineDatabase />
-          </span>
-          <h3 className="text-base font-semibold text-gray-900 dark:text-white">
-            6 Month Internship
-          </h3>
-          <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            January 12th, 2022
-          </time>
-          <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
-            Data Engineer @ Accenture
-          </p>
-        </li>
-        <li className="mb-4 ml-8 rounded-md border border-gray-100 bg-white  px-4  py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
           <span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-purple-200 ring-8 ring-white dark:bg-purple-900 dark:ring-gray-900">
             <TbDeviceDesktopAnalytics />
           </span>
@@ -77,10 +20,10 @@ export default function Timeline() {
             First Internship
           </h3>
           <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            March 17th, 2021
+            June 21st, 2023
           </time>
           <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
-            Analytics Engineer @ HOPS Healthcare
+            React inten @ KoderBox technologies PVT LTD
           </p>
         </li>
         <li className="mb-2 ml-8 rounded-md border border-gray-100 bg-white  px-4  py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
@@ -89,7 +32,7 @@ export default function Timeline() {
           </span>
           <h3 className="text-base font-semibold text-gray-900 dark:text-white">Started College</h3>
           <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            August 20th, 2018
+            December 24th, 2021
           </time>
           <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
             Bachelor of Technology in Computer Science
@@ -124,10 +67,10 @@ export default function Timeline() {
                       Finished Senior Year
                     </h3>
                     <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                      May 16th, 2018
+                      May 16th, 2019
                     </time>
                     <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
-                      With 92% in 10<sup>th</sup> & 86% in 12<sup>th</sup>
+                      With 85% in 10<sup>th</sup> & 83% in 12<sup>th</sup>
                     </p>
                   </li>
                   <li className="mb-4 ml-8 rounded-md border border-gray-100 bg-white  px-4  py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
@@ -138,10 +81,10 @@ export default function Timeline() {
                       First Code
                     </h3>
                     <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                      July 6th, 2015
+                      July 6th, 2017
                     </time>
                     <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
-                      Wrote my first program in C
+                      Wrote my first program in C++
                     </p>
                   </li>
                   <li className="mb-4 ml-8 rounded-md border border-gray-100 bg-white  px-4  py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
@@ -150,7 +93,7 @@ export default function Timeline() {
                     </span>
                     <h3 className="text-base font-semibold text-gray-900 dark:text-white">Born</h3>
                     <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                      April 16th, 2000
+                      February 2nd, 2002
                     </time>
                     <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
                       Connected to the internet
