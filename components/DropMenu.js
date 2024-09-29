@@ -26,7 +26,7 @@ import {
   ChatBubbleIcon,
   EnterIcon,
 } from '@radix-ui/react-icons'
-import useSound from 'use-sound'
+// import useSound from 'use-sound'
 
 export default function DropMenu() {
   const [isOpen, setIsOpen] = useState(false)
@@ -35,7 +35,7 @@ export default function DropMenu() {
     setIsOpen(!isOpen)
   }
 
-  const [ThemeSound] = useSound('/static/sounds/page-change.mp3')
+  // const [ThemeSound] = useSound('/static/sounds/page-change.mp3')
 
   return (
     <Menu as="div" className="relative z-10 inline-block text-left ">
@@ -69,11 +69,11 @@ export default function DropMenu() {
         leaveTo="transform opacity-0 scale-95"
         afterEnter={() => {
           toggleIcon()
-          ThemeSound()
+          // ThemeSound()
         }}
         afterLeave={() => {
           toggleIcon()
-          ThemeSound()
+          // ThemeSound()
         }}
       >
         <Menu.Items className="absolute right-0 mt-2 w-56 origin-top-right divide-y divide-zinc-300 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none dark:divide-zinc-700 dark:bg-zinc-800 ">
