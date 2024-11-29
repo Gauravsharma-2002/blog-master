@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: 'Blog | Amar Nath',
   author: 'Gaurav Sharma',
-  headerTitle: 'WebSocks',
+  headerTitle: 'Amar Diaries',
   description: `My personal blog where I shares my work`,
 
   snippets: 'will see what we can add -by Spiddy',

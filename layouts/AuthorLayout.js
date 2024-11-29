@@ -27,7 +27,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               height="192px"
               className="h-48 w-48 rounded-full xl:rounded-full"
               placeholder="blur"
-              blurDataURL="/static/images/Deadpool.jpg" // to be changed to amar's image -by spiddy
+              blurDataURL="/static/images/DP.jpg" // to be changed to amar's image -by spiddy
             />
             <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">{name}</h3>
             <div className="text-gray-500 dark:text-gray-400">{occupation}</div>
