@@ -3,20 +3,20 @@ const siteMetadata = {
   author: 'Gaurav Sharma',
   headerTitle: 'WebSocks',
   description: `My personal blog where I shares my work`,
-  // snippets: 'Reuseable code snippets collected by Parth',
+
   snippets: 'will see what we can add -by Spiddy',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://musing.vercel.app', //to be edited -by spiddy
-  siteRepo: 'https://github.com/pycoder2000/blog', //to be edited -by spiddy
+  siteUrl: 'https://blog-master-7x71.vercel.app/', //to be edited -by spiddy
+  siteRepo: 'https://github.com/Gauravsharma-2002/blog-master', //to be edited -by spiddy
   siteLogo: '/static/images/logo.png', //to be edited -by spiddy
   image: '/static/images/avatar.png', //to be edited -by spiddy
   socialBanner: '/static/images/twitter-card.png', //to be edited -by spiddy
   email: 'amarnath@sliet.ac.in', //to be edited -by spiddy changed by -spiddy
   github: 'https://github.com/Gauravsharma-2002', //to be edited -by spiddy
   twitter: 'https://x.com/spidermonk_75', //to be edited -by spiddy
-  linkedin: 'https://www.linkedin.com/in/gaurav-sharma-81a344201/', //to be edited -by spiddy
-  website: '', //to be edited -by spiddy
+  linkedin: 'https://www.linkedin.com/in/amar-nath-dhebla-6bbb0b68/', //to be edited -by spiddy
+  website: 'https://blog-master-7x71.vercel.app/', //to be edited -by spiddy
   locale: 'en-US',
   analytics: {
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
