@@ -1,6 +1,6 @@
 ---
 name: Amar Nath
-avatar: /static/images/Deadpool.jpg
+avatar: /static/images/DP.jpg
 occupation: Asst Prof
 company: SLIET Longowal
 email: amarnath@sliet.ac.in
