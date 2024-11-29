@@ -2,8 +2,9 @@ import { PageSEO } from '@/components/SEO'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import SnippetsLayout from '@/layouts/SnippetsLayout'
-import { POSTS_PER_PAGE } from '../../snippets'
+// import { POSTS_PER_PAGE } from '../../students'
 
+const POSTS_PER_PAGE = 5
 export async function getStaticPaths() {
   const totalPosts = await getAllFilesFrontMatter('snippets')
   const totalPages = Math.ceil(totalPosts.length / POSTS_PER_PAGE)

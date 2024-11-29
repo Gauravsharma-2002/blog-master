@@ -2,29 +2,29 @@ import { Fragment, useState } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { motion } from 'framer-motion'
 import classNames from 'classnames'
-import { useSession, signIn, signOut } from 'next-auth/react'
+// import { useSession, signIn, signOut } from 'next-auth/react'
 import Link from './Link'
 import {
-  CodeIcon,
+  // CodeIcon,
   HomeIcon,
-  Pencil1Icon,
-  DiscIcon,
+  // Pencil1Icon,
+  // DiscIcon,
   HamburgerMenuIcon,
-  Cross1Icon,
+  // Cross1Icon,
   FileIcon,
-  FrameIcon,
-  LaptopIcon,
-  BarChartIcon,
-  DrawingPinIcon,
+  // FrameIcon,
+  // LaptopIcon,
+  // BarChartIcon,
+  // DrawingPinIcon,
   Link2Icon,
   QuoteIcon,
-  CalendarIcon,
+  // CalendarIcon,
   PersonIcon,
   ArchiveIcon,
-  TwitterLogoIcon,
+  // TwitterLogoIcon,
   RocketIcon,
-  ChatBubbleIcon,
-  EnterIcon,
+  // ChatBubbleIcon,
+  // EnterIcon,
 } from '@radix-ui/react-icons'
 // import useSound from 'use-sound'
 
@@ -150,6 +150,7 @@ export default function DropMenu() {
                 </Link>
               )}
             </Menu.Item>
+            {/* students Section */}
             <Menu.Item>
               {({ active }) => (
                 <Link href="/publication">
@@ -163,6 +164,24 @@ export default function DropMenu() {
                   >
                     <div className="flex flex-row">
                       <FileIcon className="mr-4 mt-0.5" /> Publication
+                    </div>
+                  </a>
+                </Link>
+              )}
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <Link href="/publication">
+                  <a
+                    className={classNames(
+                      active
+                        ? 'bg-gray-200 text-gray-700 dark:bg-zinc-700 dark:text-gray-300'
+                        : 'bg-white text-zinc-700 hover:bg-gray-300 dark:bg-zinc-800 dark:text-gray-200 dark:hover:bg-zinc-700',
+                      'block px-4 py-2 text-sm'
+                    )}
+                  >
+                    <div className="flex flex-row">
+                      <FileIcon className="mr-4 mt-0.5" /> Students
                     </div>
                   </a>
                 </Link>
@@ -341,7 +360,7 @@ export default function DropMenu() {
                 </Link>
               )}
             </Menu.Item> */}
-            <Menu.Item>
+            {/* <Menu.Item>
               {({ active }) => (
                 <Link href="/journey">
                   <a
@@ -358,7 +377,7 @@ export default function DropMenu() {
                   </a>
                 </Link>
               )}
-            </Menu.Item>
+            </Menu.Item> */}
             {/* <Menu.Item>
               {({ active }) => (
                 <Link href="/recommends">

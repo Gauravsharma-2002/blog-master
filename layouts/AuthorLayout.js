@@ -5,22 +5,9 @@ import Experience from '@/components/Experience'
 import experienceData from '@/data/experienceData'
 import { educationData } from '@/data/experienceData'
 import { RoughNotation } from 'react-rough-notation'
-import { AiOutlineTwitter } from 'react-icons/ai'
-
+import { FaLinkedinIn } from 'react-icons/fa'
 export default function AuthorLayout({ children, frontMatter }) {
-  const {
-    name,
-    avatar,
-    occupation,
-    company,
-    email,
-    twitter,
-    linkedin,
-    github,
-    text1,
-    text2,
-    text3,
-  } = frontMatter
+  const { name, avatar, occupation, company, text1 } = frontMatter
 
   return (
     <>
@@ -48,12 +35,12 @@ export default function AuthorLayout({ children, frontMatter }) {
             <div className="flex flex-col pt-3">
               <a
                 className="rounded-full border px-8 py-2 text-center text-sm font-light text-gray-700 transition-colors hover:border-[#1DA1F2] hover:bg-[#1DA1F2] hover:text-white hover:shadow dark:text-white"
-                href="https://twitter.com/messages/compose?recipient_id=4302974298&text=Hey Amar" //update the recipient id
+                href="https://www.linkedin.com/in/amar-nath-dhebla-6bbb0b68/" //update the recipient id
                 data-screen-name="@spidermonk_75"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <AiOutlineTwitter className="mr-2 mb-0.5 inline h-5 w-5" />
+                <FaLinkedinIn className="mr-2 mb-0.5 inline h-5 w-5" />
                 Say Hi!
               </a>
             </div>
@@ -79,15 +66,6 @@ export default function AuthorLayout({ children, frontMatter }) {
               </RoughNotation>
             </p>
             <br />
-            <p>
-              This is what I am doing right{' '}
-              <Link
-                href={'/about'}
-                className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
-              >
-                now
-              </Link>
-            </p>
             <br />
             <p className="sm:block md:hidden lg:hidden">
               I am always looking to learn new things. I am currently working on a few projects
@@ -181,70 +159,10 @@ export default function AuthorLayout({ children, frontMatter }) {
               </Link>
             </p>
             <br />
-            {/* <p>
-              <Link
-                href={'/uses'}
-                className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
-              >
-                Here
-              </Link>{' '}
-              you can see what I use on daily basis
-            </p> */}
+            {/*  */}
             <br />
-            {/* <h1>About this site</h1>
-            <p>
-              Welcome to my home on the internet. This site functions as a blog/portfolio, a place
-              to share code and thoughts. Opinions are my own.
-            </p>
-            <p>
-              I learnt how to build this site from the most awesome people in the community:
-              <ul>
-                <li>
-                  <Link
-                    href={'https://github.com/timlrx/tailwind-nextjs-starter-blog'}
-                    className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
-                  >
-                    Timothy's Next.js and Tailwind CSS template
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      className="ml-0.5 inline-block h-4 w-4 fill-current"
-                    >
-                      <g data-name="Layer 2">
-                        <g data-name="external-link">
-                          <rect width="24" height="24" opacity="0" />
-                          <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z" />
-                          <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z" />
-                        </g>
-                      </g>
-                    </svg>
-                  </Link>
-                  : Template starter where I bootstrapped the project.
-                </li>
-                <li>
-                  <Link
-                    href={'https://www.einargudni.com/'}
-                    className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
-                  >
-                    Einar Guðjónsson
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      className="ml-0.5 inline-block h-4 w-4 fill-current"
-                    >
-                      <g data-name="Layer 2">
-                        <g data-name="external-link">
-                          <rect width="24" height="24" opacity="0" />
-                          <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z" />
-                          <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z" />
-                        </g>
-                      </g>
-                    </svg>
-                  </Link>
-                  : Now page, navigation style, animations and much more.
-                </li>
-              </ul>
-            </p> */}
+            {/*
+             */}
           </div>
         </div>
 

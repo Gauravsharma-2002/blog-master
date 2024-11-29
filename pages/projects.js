@@ -23,15 +23,16 @@ export default function Projects() {
           <div className="-m-4 flex flex-wrap">
             {projectsData.map((d) => (
               <Card
-                key={d.title}
-                title={d.title}
-                description={d.description}
-                imgSrc={d.imgSrc}
-                // href={d.href}
+                key={d?.title}
+                title={d?.title}
+                description={d?.description}
+                imgSrc={d?.imgSrc}
+                href={d?.href}
+                youtube={d?.youtube}
                 // github={d.github}
                 fundingAgency={d?.fundingAgency}
                 status={d?.status}
-                tech1={d.tech1}
+                tech1={d?.tech1}
                 // tech2={d.tech2}
                 // tech3={d.tech3}
               />

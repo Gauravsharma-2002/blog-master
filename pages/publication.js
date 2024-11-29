@@ -59,7 +59,7 @@ export default function Projects() {
                 title={d?.title}
                 description={d?.description}
                 imgSrc={d?.imgSrc}
-                href={d?.href}
+                youtube={d?.youtube}
                 github={d?.github}
                 sponsor={d?.Sponsor}
                 contributors={d?.contributors}

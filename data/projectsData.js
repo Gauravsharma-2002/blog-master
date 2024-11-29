@@ -8,9 +8,10 @@ const projectsData = [
     // github: 'https://github.com/pycoder2000/CLI-Quiz',
     fundingAgency: 'Anusandhan National Research Foundation (ANRF) ',
     tech1: '₹ 2779832',
-
     tech2: 'Javascript',
     tech3: 'HTML',
+    youtube: '',
+    href: '',
   },
   {
     title: ' Intelligence-Enabled Solution for Pest Control',
@@ -42,7 +43,7 @@ export const PublicationData = [
     title: 'water optimization in irrigation',
     description: `Analyzing monitoring and controlling techniques for water optimization used in precision irrigation`,
     imgSrc: '',
-    href: '',
+    href: '', // if there is any link associated to which you want to redirect just add it here
     // status: 'ongoing',
     range: 'April 17 - 19, 2024 ',
     // github: 'https://github.com/pycoder2000/Predicting-Number-of-Shares',
@@ -50,6 +51,7 @@ export const PublicationData = [
       ' 38th International Conference on Advanced Information Networking and Applications (AINA-2024) ',
     contributors: ['Rajni Goyal', ' Amar Nath', 'Utkarsh Niranjan', ' Rajdeep Niyogi'],
     venue: 'Kitakyushu International Convention Center, Kitakyushu, Japan. ',
+    youtube: 'https://www.youtube.com/watch?v=o_Ahgu1-zj4', // add the link off associated youtube video link for redirection
   },
 
   //16
@@ -221,3 +223,13 @@ export const PublicationData = [
 ]
 
 export default projectsData
+
+export const students = [
+  {
+    name: 'shambu kumar',
+    email: 'shambu@2140113.sliet.ac.in',
+    title: 'inclusive detailed search of the reqired things',
+    year: '2021-2023',
+    imgSrc: 'https://drive.google.com/file/d/1auFN2OwPgn-4LnkjLk3flIhXJVdWexDJ/view?usp=drive_link',
+  },
+]

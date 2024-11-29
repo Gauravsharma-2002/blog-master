@@ -14,16 +14,16 @@ const Contact = () => {
           <ul className="font-semi-bold flex flex-col space-y-4">
             <ContactLink href="mailto:amarnath@sliet.ac.in" title="gmail" icon="amarnath" />
             <ContactLink
-              href="https://github.com/Gauravsharma-2002"
-              title="github"
-              icon="spiderMonk"
-            />
-            <ContactLink href="https://x.com/spidermonk_75" title="twitter" icon="spidermonk_75" />
-            <ContactLink
-              href="https://www.linkedin.com/in/gaurav-sharma-81a344201/"
+              href="https://www.linkedin.com/in/amar-nath-dhebla-6bbb0b68/"
               title="linkedin"
-              icon="gaurav-sharma"
+              icon="amar nath"
             />
+            <ContactLink
+              href="https://scholar.google.com/citations?user=Ae4f05cAAAAJ&hl=en"
+              title="google-scholar"
+              icon="Amar Nath"
+            />
+            <ContactLink href="https://dblp.org/pid/121/6139.html" title="dblp" icon="amarNath" />
           </ul>
         </div>
       </div>

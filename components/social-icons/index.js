@@ -1,11 +1,11 @@
 import {
-  AiOutlineMail,
+  // AiOutlineMail,
   AiOutlineGithub,
   AiOutlineFacebook,
   AiOutlineTwitter,
   AiOutlineGlobal,
 } from 'react-icons/ai'
-import { FaLinkedinIn } from 'react-icons/fa'
+import { FaLinkedinIn, FaYoutube } from 'react-icons/fa'
 import { FiExternalLink, FiMail } from 'react-icons/fi'
 
 const components = {
@@ -15,6 +15,7 @@ const components = {
   linkedin: FaLinkedinIn,
   twitter: AiOutlineTwitter,
   website: AiOutlineGlobal,
+  youtube: FaYoutube,
   external: FiExternalLink,
 }
 
